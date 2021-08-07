@@ -4,28 +4,25 @@
   <head>
     <meta charset="utf-8" />
     <title>Portrait Viewer | Twitch</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- your content here... -->
 
     <div>
-    <iframe
-      src="https://player.twitch.tv/?channel=fairlight_excalibur&parent=birphon.github.io&autoplay=true"
-      frameborder="0"
-      allowfullscreen="true"
-      scrolling="no"
-      height="378"
-      width="640"
-    ></iframe
-    ></div>
-    <div>
-    <iframe
-      id="chat_embed"
-      src="https://www.twitch.tv/embed/fairlight_excalibur/chat?parent=birphon.github.io"
-      height="500"
-      width="1280"
-    >
-    </iframe></div>
+      <iframe
+        id="stream_embed"
+        src="https://player.twitch.tv/?channel=fairlight_excalibur&parent=birphon.github.io&autoplay=true"
+        frameborder="0"
+        allowfullscreen="true"
+        scrolling="no"
+      ></iframe>
+      <iframe
+        id="chat_embed"
+        src="https://www.twitch.tv/embed/fairlight_excalibur/chat?parent=birphon.github.io"
+      >
+      </iframe>
+    </div>
   </body>
 </html>
