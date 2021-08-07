@@ -1,7 +1,11 @@
 #stream_embed{
+    padding-left: 0%;
+    padding-top: 0%;
     width: 1080px;
 }
 
 #chat_embed{
+    padding-left: 0%;
+    padding-top: 0%;
     width: 1080px;
 }
